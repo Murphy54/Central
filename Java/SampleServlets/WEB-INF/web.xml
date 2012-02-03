@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+  <servlet>
+    <servlet-name>HelloWorld</servlet-name>
+    <servlet-class>edu.tcnj.csc.cloud.HelloWorld</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloWorld</servlet-name>
+    <url-pattern>/HelloWorld</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FormHandling</servlet-name>
+    <servlet-class>edu.tcnj.csc.cloud.FormHandling</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FormHandling</servlet-name>
+    <url-pattern>/FormHandling</url-pattern>
+  </servlet-mapping>
+</web-app>
